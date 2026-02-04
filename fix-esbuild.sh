@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Fixing esbuild platform compatibility issue..."
+echo "Removing existing node_modules directory..."
+rm -rf node_modules
+echo "Installing dependencies for the current platform..."
+npm install
+echo "Done! You can now run 'npm run db:generate'"
